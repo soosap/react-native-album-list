@@ -1,0 +1,3 @@
+rootProject.name = 'GriderAlbums'
+
+include ':app'
