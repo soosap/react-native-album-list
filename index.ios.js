@@ -1,10 +1,10 @@
 import React from 'react';
 import { AppRegistry, Text } from 'react-native';
 
-const App = () => {
-	return (
-		<Text>Some Text</Text>
-	);
-};
+import Header from './src/components/Header';
+
+const App = () => (
+	<Header />
+);
 
 AppRegistry.registerComponent('GriderAlbums', () => App);
