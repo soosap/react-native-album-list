@@ -3,6 +3,5 @@
 ### $ npm install && react-native run-ios
 
 <br />
-<br />
 
 ![Demo](src/images/demo.gif?raw=true "GriderAlbums")
