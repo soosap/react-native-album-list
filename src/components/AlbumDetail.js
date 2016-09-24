@@ -15,6 +15,10 @@ const AlbumDetail = ({ album }) => (
 				<Text>{album.artist}</Text>
 			</View>
 		</CardSection>
+
+		<CardSection>
+			<Image style={styles.albumCover} source={{ uri: album.image }} />
+		</CardSection>
 	</Card>
 );
 
@@ -36,7 +40,12 @@ const styles = StyleSheet.create({
 	content: {
 		flexDirection: 'column',
 		justifyContent: 'space-around',
-	}
+	},
+	albumCover: {
+		height: 300,
+		width: null,
+		flex: 1,
+	},
 });
 
 export default AlbumDetail;
