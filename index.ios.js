@@ -1,10 +1,14 @@
 import React from 'react';
-import { AppRegistry, Text } from 'react-native';
+import { AppRegistry, View } from 'react-native';
 
 import Header from './src/components/Header';
+import AlbumList from './src/components/AlbumList';
 
 const App = () => (
-	<Header />
+	<View>
+		<Header title="Albums" />
+		<AlbumList />
+	</View>
 );
 
 AppRegistry.registerComponent('GriderAlbums', () => App);
