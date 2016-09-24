@@ -1,4 +1,8 @@
 ### $ git clone https://github.com/soosap/react-native-albums.git GriderAlbums
 
-### $ react-native run-ios
+### $ npm install && react-native run-ios
 
+<br />
+<br />
+
+![Demo](src/images/demo.gif?raw=true "GriderAlbums")
