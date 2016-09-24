@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text, Image, View, StyleSheet } from 'react-native';
 
+import Button from './Button';
 import Card from './Card';
 import CardSection from './CardSection';
 
@@ -18,6 +19,10 @@ const AlbumDetail = ({ album }) => (
 
 		<CardSection>
 			<Image style={styles.albumCover} source={{ uri: album.image }} />
+		</CardSection>
+
+		<CardSection>
+			<Button onPress={() => console.log('pressed!')}>Buy now!</Button>
 		</CardSection>
 	</Card>
 );
